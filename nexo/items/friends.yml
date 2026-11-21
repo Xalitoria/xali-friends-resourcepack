@@ -1,0 +1,95 @@
+friend_arrow_left:
+  itemname: 'arrow_left'
+  material: PAPER
+  Pack:
+    texture: friends/buttons/generated/arrow_left.png
+friend_arrow_right:
+  itemname: 'arrow_right'
+  material: PAPER
+  Pack:
+    texture: friends/buttons/generated/arrow_right.png
+friend_cancel:
+  itemname: 'cancel'
+  material: PAPER
+  Pack:
+    texture: friends/buttons/generated/cancel.png
+friend_confirm:
+  itemname: 'confirm'
+  material: PAPER
+  Pack:
+    texture: friends/buttons/generated/confirm.png
+friend_like:
+  itemname: 'like'
+  material: PAPER
+  Pack:
+    texture: friends/buttons/generated/like.png
+friend_notify:
+  itemname: 'notify'
+  material: PAPER
+  Pack:
+    texture: friends/buttons/generated/notify.png
+friend_no_notify:
+  itemname: 'no_notify'
+  material: PAPER
+  Pack:
+    texture: friends/buttons/generated/no_notify.png
+friend_settings:
+  itemname: 'settings'
+  material: PAPER
+  Pack:
+    texture: friends/buttons/generated/settings.png
+friend_toggle_off:
+  itemname: 'toggle_off'
+  material: PAPER
+  Pack:
+    texture: friends/buttons/generated/toggle_off.png
+friend_toggle_on:
+  itemname: 'toggle_on'
+  material: PAPER
+  Pack:
+    texture: friends/buttons/generated/toggle_on.png
+friend_toggle_onlyfriends:
+  itemname: 'toggle_onlyfriends'
+  material: PAPER
+  Pack:
+    texture: friends/buttons/generated/toggle_onlyfriends.png
+friend_sort:
+  itemname: 'sort'
+  material: PAPER
+  Pack:
+    texture: friends/buttons/generated/sort.png
+friend_empty:
+  itemname: 'empty'
+  material: PAPER
+  Pack:
+    model: friends/empty
+friend_accept:
+  itemname: 'accept'
+  material: PAPER
+  Pack:
+    model: friends/accept
+friend_deny:
+  itemname: 'deny'
+  material: PAPER
+  Pack:
+    model: friends/deny
+friend_invite:
+  itemname: 'invite'
+  material: PAPER
+  Pack:
+    model: friends/invite
+friend_jump:
+  itemname: 'jump'
+  material: PAPER
+  Pack:
+    model: friends/jump
+friend_send:
+  itemname: 'send'
+  material: PAPER
+  Pack:
+    model: friends/send
+friend_teleport:
+  itemname: 'teleport'
+  material: PAPER
+  Pack:
+    model: friends/teleport

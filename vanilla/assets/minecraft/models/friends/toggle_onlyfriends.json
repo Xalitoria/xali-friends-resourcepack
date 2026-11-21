@@ -1,0 +1,28 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "friends/buttons/generated/toggle_onlyfriends",
+		"particle": "friends/buttons/generated/toggle_onlyfriends"
+	},
+	"elements": [
+		{
+			"from": [-9, 0, 0],
+			"to": [-1, 8, 0],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 8], "texture": "#missing"},
+				"east": {"uv": [0, 0, 0, 8], "texture": "#missing"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"west": {"uv": [0, 0, 0, 8], "texture": "#missing"},
+				"up": {"uv": [0, 0, 16, 0], "texture": "#missing"},
+				"down": {"uv": [0, 0, 16, 0], "texture": "#missing"}
+			}
+		}
+	],
+	"gui_light": "front",
+	"display": {
+		"gui": {
+			"translation": [26, 8, 0],
+			"scale": [2, 2, 2]
+		}
+	}
+}

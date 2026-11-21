@@ -1,0 +1,145 @@
+{
+  "model": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/paper"
+    },
+    "entries": [
+      {
+        "threshold": 3700,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:empty"
+        }
+      },
+      {
+        "threshold": 3701,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:arrow_left"
+        }
+      },
+      {
+        "threshold": 3702,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:arrow_right"
+        }
+      },
+      {
+        "threshold": 3703,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:cancel"
+        }
+      },
+      {
+        "threshold": 3704,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:confirm"
+        }
+      },
+      {
+        "threshold": 3705,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:like"
+        }
+      },
+      {
+        "threshold": 3706,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:notify"
+        }
+      },
+      {
+        "threshold": 3707,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:settings"
+        }
+      },
+      {
+        "threshold": 3708,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:friends/toggle_off"
+        }
+      },
+      {
+        "threshold": 3709,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:friends/toggle_on"
+        }
+      },
+      {
+        "threshold": 3710,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:friends/accept"
+        }
+      },
+      {
+        "threshold": 3711,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:friends/deny"
+        }
+      },
+      {
+        "threshold": 3712,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:friends/invite"
+        }
+      },
+      {
+        "threshold": 3713,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:friends/jump"
+        }
+      },
+      {
+        "threshold": 3714,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:friends/send"
+        }
+      },
+      {
+        "threshold": 3715,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:no_notify"
+        }
+      },
+      {
+        "threshold": 3716,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:sort"
+        }
+      },
+      {
+        "threshold": 3717,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:friends/teleport"
+        }
+      },
+      {
+        "threshold": 3718,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:friends/toggle_onlyfriends"
+        }
+      }
+    ]
+  }
+}

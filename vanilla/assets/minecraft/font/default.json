@@ -1,0 +1,103 @@
+{
+  "providers": [
+    {
+      "chars": [
+        "ᛧ"
+      ],
+      "file": "friends/ui/friends.png",
+      "ascent": 37,
+      "height": 256,
+      "type": "bitmap"
+    },
+    {
+      "chars": [
+        "ᛨ"
+      ],
+      "file": "friends/ui/anvil.png",
+      "ascent": 40,
+      "height": 256,
+      "type": "bitmap"
+    },
+    {
+      "chars": [
+        "᛫"
+      ],
+      "file": "friends/ui/profile.png",
+      "ascent": 37,
+      "height": 256,
+      "type": "bitmap"
+    },
+    {
+      "chars": [
+        "᛬"
+      ],
+      "file": "friends/ui/requests.png",
+      "ascent": 37,
+      "height": 256,
+      "type": "bitmap"
+    },
+    {
+      "chars": [
+        "᛭"
+      ],
+      "file": "friends/ui/settings.png",
+      "ascent": 37,
+      "height": 256,
+      "type": "bitmap"
+    },
+    {
+      "chars": [
+        "ᛴ"
+      ],
+      "file": "friends/ui/settings_teleport.png",
+      "ascent": 37,
+      "height": 256,
+      "type": "bitmap"
+    },
+    {
+      "chars": [
+        "ᛸ"
+      ],
+      "file": "friends/ui/settings2.png",
+      "ascent": 37,
+      "height": 256,
+      "type": "bitmap"
+    },
+    {
+      "chars": [
+        "ᛮ"
+      ],
+      "file": "required/null.png",
+      "ascent": -32768,
+      "height": -18,
+      "type": "bitmap"
+    },
+    {
+      "chars": [
+        "ᛯ"
+      ],
+      "file": "required/null.png",
+      "ascent": -32768,
+      "height": -4,
+      "type": "bitmap"
+    },
+    {
+      "chars": [
+        "ᛰ"
+      ],
+      "file": "required/null.png",
+      "ascent": -32768,
+      "height": -66,
+      "type": "bitmap"
+    },
+    {
+      "chars": [
+        "ᛱ"
+      ],
+      "file": "required/null.png",
+      "ascent": -32768,
+      "height": -6,
+      "type": "bitmap"
+    }
+  ]
+}

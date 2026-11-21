@@ -1,0 +1,262 @@
+info:
+  namespace: friendsystem
+ 
+font_images:
+  friends:
+    show_in_gui: true
+    path: friends/ui/friends.png
+    symbol: ᛧ
+    scale_ratio: 256
+    y_position: 37
+
+  anvil:
+    show_in_gui: true
+    path: friends/ui/anvil.png
+    symbol: ᛨ
+    scale_ratio: 256
+    y_position: 40
+
+  profile:
+    show_in_gui: true
+    path: friends/ui/profile.png
+    symbol: ᛫
+    scale_ratio: 256
+    y_position: 37
+
+  requests:
+    show_in_gui: true
+    path: friends/ui/requests.png
+    symbol: ᛬
+    scale_ratio: 256
+    y_position: 37
+
+  settings:
+    show_in_gui: true
+    path: friends/ui/settings.png
+    symbol: ᛭
+    scale_ratio: 256
+    y_position: 37
+
+  settings_teleport:
+    show_in_gui: true
+    path: friends/ui/settings_teleport.png
+    symbol: ᛴ
+    scale_ratio: 256
+    y_position: 37
+    
+  settings2:
+    show_in_gui: true
+    path: friends/ui/settings2.png
+    symbol: ᛸ
+    scale_ratio: 256
+    y_position: 37
+
+  friends_neg_shift_16:
+    show_in_gui: true
+    path: required/null.png
+    symbol: ᛮ
+    scale_ratio: -18
+    y_position: -32768
+
+  friends_neg_shift_2:
+    show_in_gui: true
+    path: required/null.png
+    symbol: ᛯ
+    scale_ratio: -4
+    y_position: -32768
+
+  friends_neg_shift_64:
+    show_in_gui: true
+    path: required/null.png
+    symbol: ᛰ
+    scale_ratio: -66
+    y_position: -32768
+
+  friends_neg_shift_4:
+    show_in_gui: true
+    path: required/null.png
+    symbol: ᛱ
+    scale_ratio: -6
+    y_position: -32768
+  
+items:
+  arrow_left:
+    display_name: 'arrow_left'
+    resource:
+      material: PAPER
+      model_id: 3701
+      generate: true
+      textures:
+      - friends/buttons/generated/arrow_left.png
+
+  arrow_right:
+    display_name: 'arrow_right'
+    resource:
+      material: PAPER
+      model_id: 3702
+      generate: true
+      textures:
+      - friends/buttons/generated/arrow_right.png
+
+  cancel:
+    display_name: 'cancel'
+    resource:
+      material: PAPER
+      model_id: 3703
+      generate: true
+      textures:
+      - friends/buttons/generated/cancel.png
+
+  confirm:
+    display_name: 'confirm'
+    resource:
+      material: PAPER
+      model_id: 3704
+      generate: true
+      textures:
+      - friends/buttons/generated/confirm.png
+
+  like:
+    display_name: 'like'
+    resource:
+      material: PAPER
+      model_id: 3705
+      generate: true
+      textures:
+      - friends/buttons/generated/like.png
+
+  notify:
+    display_name: 'notify'
+    resource:
+      material: PAPER
+      model_id: 3706
+      generate: true
+      textures:
+      - friends/buttons/generated/notify.png
+
+  no_notify:
+    display_name: 'no_notify'
+    resource:
+      material: PAPER
+      model_id: 3715
+      generate: true
+      textures:
+      - friends/buttons/generated/no_notify.png
+
+
+  settings:
+    display_name: 'settings'
+    resource:
+      material: PAPER
+      model_id: 3707
+      generate: true
+      textures:
+      - friends/buttons/generated/settings.png
+
+  toggle_off:
+    display_name: 'toggle_off'
+    resource:
+      material: PAPER
+      model_id: 3708
+      generate: true
+      textures:
+      - friends/buttons/generated/toggle_off.png
+
+  toggle_on:
+    display_name: 'toggle_on'
+    resource:
+      material: PAPER
+      model_id: 3709
+      generate: true
+      textures:
+      - friends/buttons/generated/toggle_on.png
+
+  toggle_onlyfriends:
+    display_name: 'toggle_onlyfriends'
+    resource:
+      material: PAPER
+      model_id: 3718
+      generate: true
+      textures:
+      - friends/buttons/generated/toggle_onlyfriends.png
+      
+  sort:
+    display_name: 'sort'
+    resource:
+      material: PAPER
+      model_id: 3716
+      generate: true
+      textures:
+      - friends/buttons/generated/sort.png
+
+  accept:
+    display_name: 'accept'
+    resource:
+      material: PAPER
+      model_id: 3710
+      generate: false
+      model_path: friends/accept.json
+
+  deny:
+    display_name: 'deny'
+    resource:
+      material: PAPER
+      model_id: 3711
+      generate: false
+      model_path: friends/deny.json
+      
+  invite:
+    display_name: 'invite'
+    resource:
+      material: PAPER
+      model_id: 3712
+      generate: false
+      model_path: friends/invite.json
+
+  jump:
+    display_name: 'jump'
+    resource:
+      material: PAPER
+      model_id: 3713
+      generate: false
+      model_path: friends/jump.json
+
+  send:
+    display_name: 'send'
+    resource:
+      material: PAPER
+      model_id: 3714
+      generate: false
+      model_path: friends/send.json
+
+  empty:
+    display_name: 'empty'
+    resource:
+      material: PAPER
+      model_id: 3700
+      generate: false
+      model_path: empty.json
+      
+  little_head:
+    display_name: 'little_head'
+    resource:
+      material: PLAYER_HEAD
+      model_id: 5000
+      generate: false
+      model_path: item/little_head.json
+      
+  big_head:
+    display_name: 'big_head'
+    resource:
+      material: PLAYER_HEAD
+      model_id: 10050
+      generate: false
+      model_path: item/big_head.json
+      
+  teleport:
+    display_name: 'teleport'
+    resource:
+      material: PAPER
+      model_id: 3717
+      generate: false
+      model_path: friends/teleport.json

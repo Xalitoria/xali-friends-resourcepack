@@ -1,0 +1,38 @@
+{
+  "model": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "fallback": {
+      "type": "minecraft:special",
+      "base": "minecraft:item/template_skull",
+      "model": {
+        "type": "minecraft:head",
+        "kind": "player"
+      }
+    },
+    "entries": [
+      {
+        "threshold": 5000,
+        "model": {
+          "type": "minecraft:special",
+          "base": "friends:item/little_head",
+          "model": {
+            "type": "minecraft:head",
+            "kind": "player"
+          }
+        }
+      },
+      {
+        "threshold": 10050,
+        "model": {
+          "type": "minecraft:special",
+          "base": "friends:item/big_head",
+          "model": {
+            "type": "minecraft:head",
+            "kind": "player"
+          }
+        }
+      }
+    ]
+  }
+}
