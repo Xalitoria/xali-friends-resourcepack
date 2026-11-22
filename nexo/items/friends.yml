@@ -68,28 +68,34 @@ friend_accept:
   material: PAPER
   Pack:
     model: friends/accept
+    oversized_in_gui: true
 friend_deny:
   itemname: 'deny'
   material: PAPER
   Pack:
     model: friends/deny
+    oversized_in_gui: true
 friend_invite:
   itemname: 'invite'
   material: PAPER
   Pack:
     model: friends/invite
+    oversized_in_gui: true
 friend_jump:
   itemname: 'jump'
   material: PAPER
   Pack:
     model: friends/jump
+    oversized_in_gui: true
 friend_send:
   itemname: 'send'
   material: PAPER
   Pack:
     model: friends/send
+    oversized_in_gui: true
 friend_teleport:
   itemname: 'teleport'
   material: PAPER
   Pack:
     model: friends/teleport
+    oversized_in_gui: true
